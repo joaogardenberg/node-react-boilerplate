@@ -1,5 +1,6 @@
 import express from 'express'
+import { PORT } from 'config'
 
 const app = express()
 
-app.listen(4000, () => console.info(`[Express] Listening on port ${4000}`))
+app.listen(PORT, () => console.info(`[Express] Listening on port ${PORT}`))
