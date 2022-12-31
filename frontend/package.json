@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "craco start",
-    "prebuild": "npm run i18n",
+    "prebuild": "echo 'TODO: npm run i18n'",
     "build": "craco build",
     "test": "craco test",
     "i18n": "npm-run-all i18n:*",
