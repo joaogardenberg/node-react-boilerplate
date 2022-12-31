@@ -17,7 +17,6 @@
     "noImplicitAny": true,
     "noImplicitReturns": false,
     "noImplicitThis": true,
-    "outDir": "build",
     "resolveJsonModule": true,
     "rootDir": "src",
     "skipLibCheck": true,
