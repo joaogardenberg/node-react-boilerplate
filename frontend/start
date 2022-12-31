@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "*** Setting environment variables ***"
+export $(grep -v '^#' .env | xargs)
+
+echo "*** Installing packages ***"
+npm install --silent
+
+# echo "*** Compiling i18n ***"
+# npm run i18n:compile
+
+echo "*** Starting React app ***"
+npm start
