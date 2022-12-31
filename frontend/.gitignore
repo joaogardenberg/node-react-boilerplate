@@ -1,0 +1,7 @@
+# Production
+
+/build
+
+# Locale objects
+
+/src/config/i18n/objects
