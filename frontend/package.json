@@ -3,12 +3,12 @@
   "private": true,
   "scripts": {
     "start": "craco start",
-    "prebuild": "bun run i18n",
+    "prebuild": "npm run i18n",
     "build": "craco build",
     "test": "craco test",
     "i18n": "npm-run-all i18n:*",
-    "i18n:update": "bun src/config/i18n/scripts/update.js",
-    "i18n:compile": "bun src/config/i18n/scripts/compile.js"
+    "i18n:update": "node src/config/i18n/scripts/update.js",
+    "i18n:compile": "node src/config/i18n/scripts/compile.js"
   },
   "dependencies": {
     "@craco/craco": "^7.0.0",
@@ -20,7 +20,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.2",
     "classnames": "^2.3.2",
-    "express": "^4.18.2",
     "immutability-helper": "^3.1.1",
     "lodash": "^4.17.21",
     "polished": "^4.2.2",
@@ -52,7 +51,6 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "fast-glob": "^3.2.12",
     "npm-run-all": "^4.1.5",
     "ttag-cli": "^1.10.5",
     "typescript": "^4.9.4"

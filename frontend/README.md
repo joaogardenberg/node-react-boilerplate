@@ -3,13 +3,13 @@
 To install dependencies:
 
 ```bash
-bun install
+npm install
 ```
 
 To run:
 
 ```bash
-bun start
+npm start
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) on your preferred web browser.
