@@ -32,7 +32,7 @@ The API is available at [http://localhost:4000/](http://localhost:4000/).
 npm run build
 ```
 
-## Sync the repository with the Boilerplate
+## Sync the repository with the base repository
 
 ```bash
 ./sync

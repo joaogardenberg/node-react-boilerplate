@@ -4,7 +4,7 @@ import notFoundRoute from './notFound'
 
 export default function addRoutes(app: Application, server: Server) {
   typeof server
-  app.get('/', (_, res) => res.send('Boilerplate'))
+  app.get('/', (_, res) => res.send('Boilerplate: Backend'))
 
   // Has to be last
   notFoundRoute(app)
