@@ -1,13 +1,10 @@
 #!/bin/sh
 
-echo "*** Setting environment variables ***"
+echo "*** Setting Frontend environment variables ***"
 export $(grep -v '^#' .env | xargs)
 
-echo "*** Installing packages ***"
+echo "*** Installing Frontend packages ***"
 npm install --silent
 
-# echo "*** Compiling i18n ***"
-# npm run i18n:compile
-
-echo "*** Starting React app ***"
+echo "*** Starting Frontend React app ***"
 npm start
