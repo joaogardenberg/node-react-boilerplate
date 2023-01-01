@@ -13,7 +13,7 @@ npm install
 Standalone:
 
 ```bash
-npm start
+./start
 ```
 
 Dockerized:
