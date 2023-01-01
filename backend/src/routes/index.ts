@@ -1,9 +1,7 @@
 import { Application } from 'express'
-import { Server } from 'http'
 import notFoundRoute from './notFound'
 
-export default function addRoutes(app: Application, server: Server) {
-  typeof server
+export default function addRoutes(app: Application) {
   app.get('/', (_, res) => res.send('Boilerplate: Backend'))
 
   // Has to be last

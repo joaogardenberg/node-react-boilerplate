@@ -1,3 +1,3 @@
 export default function App() {
-  return <p>Vegalore: Frontend</p>
+  return <p>Boilerplate: Frontend</p>
 }

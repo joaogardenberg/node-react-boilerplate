@@ -1,5 +1,5 @@
 #!/bin/sh
 
-echo "*** Syncing with boilerplate repo ***"
-git config remote.boilerplate.url >&- || git remote add boilerplate git@github.com:joaogardenberg/node-react-boilerplate.git
-git pull boilerplate main
+echo "*** Syncing with base repository ***"
+git config remote.base.url >&- || git remote add base git@github.com:joaogardenberg/node-react-boilerplate.git
+git pull base main

@@ -1,4 +1,4 @@
-# Vegalore
+# Node + React Typescript Boilerplate
 
 ## Install the Backend & Frontend dependencies
 
@@ -32,7 +32,7 @@ The API is available at [http://localhost:4000/](http://localhost:4000/).
 npm run build
 ```
 
-## Sync the repository with the base repository
+## Sync with the base repository
 
 ```bash
 ./sync

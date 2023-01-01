@@ -1,4 +1,4 @@
-# Vegalore: Frontend
+# Boilerplate: Frontend
 
 ## Directory
 
