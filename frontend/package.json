@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-frontend",
+  "name": "vegalore-frontend",
   "private": true,
   "scripts": {
     "start": "craco start",

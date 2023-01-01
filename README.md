@@ -1,4 +1,4 @@
-# Node + React Typescript Boilerplate
+# Vegalore
 
 ## Install the Backend & Frontend dependencies
 
