@@ -10,9 +10,13 @@
     "install:frontend": "cd frontend && npm install",
     "build": "npm-run-all --parallel build:*",
     "build:backend": "cd backend && npm run build",
-    "build:frontend": "cd frontend && npm run build"
+    "build:frontend": "cd frontend && npm run build",
+    "upgrade": "ncu -u && npm-run-all upgrade:*",
+    "upgrade:backend": "cd backend && npm run upgrade",
+    "upgrade:frontend": "cd frontend && npm run upgrade"
   },
   "devDependencies": {
+    "npm-check-updates": "^16.10.17",
     "npm-run-all": "^4.1.5"
   }
 }
