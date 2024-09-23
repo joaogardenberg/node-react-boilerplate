@@ -1,15 +1,13 @@
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": { "project": "**/tsconfig.json" },
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "plugins": ["react", "prettier"],
   "extends": [
     "react-app",
     "react-app/jest",
-    "airbnb-typescript",
     "airbnb/hooks",
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
   "rules": {
