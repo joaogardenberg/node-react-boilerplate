@@ -6,7 +6,7 @@
     "start": "env-cmd nodemon",
     "test": "mocha -r ts-node/register 'src/**/*.test.ts'",
     "build": "tsc -p tsconfig.build.json",
-    "production": "node build/index.js",
+    "production": "node dist/index.js",
     "upgrade": "ncu -u"
   },
   "dependencies": {
