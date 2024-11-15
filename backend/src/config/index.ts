@@ -1,5 +1,7 @@
+import { isNil } from 'lodash'
+
 interface Config {
-  [key: string]: string | undefined
+  [key: string]: string | boolean
 }
 
 export const FRONTEND_URL = process.env.FRONTEND_URL as string
@@ -13,7 +15,7 @@ const config: Config = {
 }
 
 Object.keys(config).forEach((key: string) => {
-  if (!config[key]) {
+  if (isNil(config[key])) {
     console.warn(`[WARNING] There is no ${key} environment variable set!`)
   }
 })
