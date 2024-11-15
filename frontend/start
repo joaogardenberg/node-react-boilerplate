@@ -7,4 +7,4 @@ echo "*** Installing Frontend packages ***"
 npm install --silent
 
 echo "*** Starting Frontend React app ***"
-npm start
+npm run dev

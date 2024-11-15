@@ -1,4 +1,4 @@
-# Boilerplate: Frontend
+# Boilerplate: Frontend - React + Vite
 
 ## Directory
 
