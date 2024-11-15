@@ -20,7 +20,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Typescript aliases */
+    "paths": {
+      "components": ["./src/components"],
+      "components/*": ["./src/components/*"],
+      "config": ["./src/config"],
+      "config/*": ["./src/config/*"]
+    }
   },
   "include": ["src"]
 }
