@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import App from './components/App'
 import GlobalStyles from './main.styled'
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById('boilerplate')!).render(
   <StrictMode>
     <App />
     <GlobalStyles />
