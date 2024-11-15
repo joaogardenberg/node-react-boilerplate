@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { PORT } from './config'
+import { PORT } from './src/config'
 
 // https://vite.dev/config/
 export default defineConfig({
