@@ -4,9 +4,9 @@ interface Config {
   [key: string]: string | boolean
 }
 
-export const FRONTEND_URL = process.env.FRONTEND_URL as string
-export const NODE_ENV = process.env.NODE_ENV as string
-export const PORT = process.env.PORT as string
+export const FRONTEND_URL = process.env.FRONTEND_URL!
+export const NODE_ENV = process.env.NODE_ENV!
+export const PORT = process.env.PORT!
 
 const config: Config = {
   FRONTEND_URL,

@@ -2,14 +2,12 @@ interface Config {
   [key: string]: string | undefined
 }
 
-export const NODE_ENV = process.env.NODE_ENV as string
-export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL as string
-export const PORT = process.env.PORT as string
+export const NODE_ENV = process.env.NODE_ENV!
+export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL!
 
 const config: Config = {
   NODE_ENV,
-  BACKEND_URL,
-  PORT
+  BACKEND_URL
 }
 
 Object.keys(config).forEach((key: string) => {
