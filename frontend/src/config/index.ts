@@ -2,7 +2,7 @@ interface Config {
   [key: string]: string | undefined
 }
 
-export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL as string
 
 const config: Config = {
   BACKEND_URL
