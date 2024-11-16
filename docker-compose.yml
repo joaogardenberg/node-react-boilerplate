@@ -2,19 +2,23 @@ version: '3'
 
 services:
   backend:
-    build: ./backend
+    image: node:latest
+    working_dir: /app/
+    command: ./start
+    volumes:
+      - ./backend/:/app/
     environment:
       - CHOKIDAR_USEPOLLING=true
-    volumes:
-      - ./backend:/app
     ports:
       - 4000:4000
 
   frontend:
-    build: ./frontend
+    image: node:latest
+    working_dir: /app/
+    command: ./start
+    volumes:
+      - ./frontend/:/app/
     environment:
       - CHOKIDAR_USEPOLLING=true
-    volumes:
-      - ./frontend:/app
     ports:
       - 3000:3000
