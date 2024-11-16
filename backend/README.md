@@ -1,4 +1,4 @@
-# Boilerplate: Backend
+# Boilerplate: Backend - Node.js + Express
 
 ## Directory
 
