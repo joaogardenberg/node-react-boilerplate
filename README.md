@@ -18,12 +18,6 @@ Then open [http://localhost:3000](http://localhost:3000) on your preferred web b
 
 The API is available at [http://localhost:4000/](http://localhost:4000/).
 
-## Build the Frontend
-
-```bash
-cd frontend && npm run build
-```
-
 ## Sync with the base repository
 
 ```bash
