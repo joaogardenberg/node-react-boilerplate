@@ -1,14 +1,6 @@
-# Node + React Typescript Boilerplate
+# Full Stack Boilerplate - Node.js + Express + Vite + React
 
-## Install the Backend & Frontend dependencies
-
-Note: If it's your first time doing this, you might have to run this command twice because the postinstall script sometimes fails the first time.
-
-```bash
-npm install
-```
-
-## Run the Backend & Frontend in development mode
+## Run the Backend & Frontend servers in development mode
 
 Standalone:
 
@@ -26,10 +18,10 @@ Then open [http://localhost:3000](http://localhost:3000) on your preferred web b
 
 The API is available at [http://localhost:4000/](http://localhost:4000/).
 
-## Build the Backend & Frontend
+## Build the Frontend
 
 ```bash
-npm run build
+cd frontend && npm run build
 ```
 
 ## Sync with the base repository

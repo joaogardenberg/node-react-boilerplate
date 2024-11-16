@@ -6,13 +6,7 @@
 cd frontend
 ```
 
-## Install the Frontend dependencies
-
-```bash
-npm install
-```
-
-## Run the Frontend in development mode
+## Run the Frontend server in development mode
 
 Standalone:
 
@@ -32,4 +26,10 @@ Then open [http://localhost:3000](http://localhost:3000) on your preferred web b
 
 ```bash
 npm run build
+```
+
+## Run the Frontend tests
+
+```bash
+npm run test
 ```
