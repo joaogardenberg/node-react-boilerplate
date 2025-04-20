@@ -5,7 +5,7 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: { port: parseInt(process.env.PORT!) },
+  server: { port: parseInt(process.env.PORT || '3000') },
   resolve: {
     alias: {
       components: resolve(__dirname, 'src', 'components'),

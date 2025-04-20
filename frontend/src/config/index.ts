@@ -1,7 +1,7 @@
 import { isNil } from 'lodash'
 
 interface Config {
-  [key: string]: unknown
+  [key: string]: string | boolean | undefined
 }
 
 export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL as string

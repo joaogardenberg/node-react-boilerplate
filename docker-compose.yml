@@ -10,7 +10,7 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
     ports:
-      - 4000:4000
+      - 3001:3001
 
   frontend:
     image: node:latest
