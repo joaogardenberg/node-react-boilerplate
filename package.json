@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "sports-tbd",
   "private": true,
   "scripts": {
     "start": "npm-run-all --parallel start:*",

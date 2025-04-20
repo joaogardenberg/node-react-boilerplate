@@ -1,4 +1,4 @@
-# Full Stack Boilerplate - Node.js + Express + Vite + React
+# Sports TBD
 
 ## Run the Backend & Frontend servers in development mode
 

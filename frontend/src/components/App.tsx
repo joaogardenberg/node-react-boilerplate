@@ -1,3 +1,3 @@
 export default function App() {
-  return <p>Boilerplate: Frontend</p>
+  return <p>Sports TBD: Frontend</p>
 }

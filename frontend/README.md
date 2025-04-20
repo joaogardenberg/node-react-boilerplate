@@ -1,4 +1,4 @@
-# Boilerplate: Frontend - React + Vite
+# Sports TBD: Frontend - React + Vite
 
 ## Directory
 
