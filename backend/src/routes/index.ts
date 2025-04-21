@@ -6,7 +6,7 @@ export default function addRoutes(app: Application, server: Server) {
   server.on('connection', () => console.info('Someone connected!'))
 
   app.get('/', (_, res) => {
-    res.send('Sports TBD: Backend')
+    res.send('Sporthood: Backend')
   })
 
   // Has to be last

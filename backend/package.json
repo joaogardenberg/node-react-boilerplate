@@ -1,5 +1,5 @@
 {
-  "name": "sports-tbd-backend",
+  "name": "sporthood",
   "private": true,
   "main": "src/index.ts",
   "scripts": {

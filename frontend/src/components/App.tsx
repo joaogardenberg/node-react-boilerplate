@@ -1,3 +1,3 @@
 export default function App() {
-  return <p>Sports TBD: Frontend</p>
+  return <p>Sporthood: Frontend</p>
 }

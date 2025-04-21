@@ -1,5 +1,5 @@
 {
-  "name": "sports-tbd",
+  "name": "sporthood",
   "private": true,
   "scripts": {
     "start": "npm-run-all --parallel start:*",

@@ -1,4 +1,4 @@
-# Sports TBD
+# Sporthood
 
 ## Run the Backend & Frontend servers in development mode
 

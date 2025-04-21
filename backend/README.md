@@ -1,4 +1,4 @@
-# Sports TBD: Backend - Node.js + Express
+# Sporthood: Backend - Node.js + Express
 
 ## Directory
 

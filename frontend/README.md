@@ -1,4 +1,4 @@
-# Sports TBD: Frontend - React + Vite
+# Sporthood: Frontend - React + Vite
 
 ## Directory
 
