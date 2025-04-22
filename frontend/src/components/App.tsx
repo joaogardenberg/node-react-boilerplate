@@ -1,3 +1,5 @@
+import config from 'config'
+
 export default function App() {
-  return <p>Sporthood: Frontend</p>
+  return <p>{JSON.stringify(config)}</p>
 }
