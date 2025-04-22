@@ -1,4 +1,4 @@
-# Sporthood
+# Boilerplate: Full Stack - Node.js + Express + Vite + React
 
 ## Run the Backend & Frontend servers in development mode
 

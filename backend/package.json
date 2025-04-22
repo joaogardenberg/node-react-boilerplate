@@ -1,5 +1,5 @@
 {
-  "name": "sporthood",
+  "name": "boilerplate",
   "private": true,
   "main": "src/index.ts",
   "scripts": {

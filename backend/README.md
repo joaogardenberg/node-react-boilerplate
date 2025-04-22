@@ -1,4 +1,4 @@
-# Sporthood: Backend - Node.js + Express
+# Boilerplate: Backend - Node.js + Express
 
 ## Directory
 

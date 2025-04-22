@@ -1,4 +1,4 @@
-# Sporthood: Frontend - React + Vite
+# Boilerplate: Frontend - Vite + React
 
 ## Directory
 
