@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo "*** Setting Backend environment variables ***"
-export $(grep -v '^#' .env | xargs)
-
 echo "*** Installing Backend packages ***"
 npm install --silent
 

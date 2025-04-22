@@ -3,7 +3,7 @@
   "private": true,
   "main": "src/index.ts",
   "scripts": {
-    "start": "env-cmd nodemon",
+    "start": "env-cmd --no-override nodemon",
     "test": "mocha -r ts-node/register 'src/**/*.test.ts'",
     "upgrade": "ncu -u"
   },
