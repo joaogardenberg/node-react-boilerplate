@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo "*** Setting Frontend environment variables ***"
-export $(grep -v '^#' .env | xargs)
-
 echo "*** Installing Frontend packages ***"
 npm install --silent
 
