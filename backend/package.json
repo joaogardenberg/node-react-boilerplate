@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "boilerplate-backend",
   "private": true,
   "main": "src/index.ts",
   "scripts": {
